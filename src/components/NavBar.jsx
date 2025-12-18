@@ -13,22 +13,22 @@ function NavBar() {
         <nav className={styles.navBar}>
             <div className={styles.navElement}>
                 <Link to="/" className={styles.link}>
-                    gallery
+                    Gallery
                 </Link>
             </div>
             <div className={styles.navElement}>
                 <Link to="Booking" className={styles.link}>
-                    booking
+                    Booking
                 </Link>
             </div>
             <div className={styles.navElement}>
                 <Link to="Merch" className={styles.link}>
-                    merch
+                    Merch
                 </Link>
             </div>
             <div className={styles.navElement}>
-                <Link to="About" className={styles.link}>
-                    about
+                <Link to="/About" className={styles.link}>
+                    About
                 </Link>
             </div>
             <div className={styles.navElement}>

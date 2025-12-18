@@ -4,7 +4,11 @@ import Styles from "./App.module.css"
 
 import NavBar from './components/NavBar'
 
-import HomePage from './pages/Gallery';
+import Gallery from './pages/Gallery';
+import About from './pages/About';
+import Booking from './pages/Booking';
+import FAQ from './pages/FAQ';
+import Merch from './pages/Merch';
 
 function App() {
 
@@ -14,7 +18,11 @@ function App() {
       <BrowserRouter>
         <NavBar/>
         <Routes>
-          <Route path='/' element={<HomePage />}/>
+          <Route path='/' element={<Gallery />}/>
+          <Route path='/About' element={<About />}/>
+          <Route path='/Booking' element={<Booking />}/>
+          <Route path='/FAQ' element={<FAQ />}/>
+          <Route path='/Merch' element={<Merch />}/>
         </Routes>
       </BrowserRouter>
     </>

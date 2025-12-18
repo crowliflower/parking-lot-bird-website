@@ -1,0 +1,30 @@
+.Banner {
+  width: 88%;
+  height: 20%;
+
+  position: absolute;
+  top: 0;
+  left: 12%;
+
+  background-color: rgb(255, 169, 34);
+}
+
+.Banner h1 {
+  font-size: 5rem;
+
+  position: relative;
+  bottom: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Banner p {
+  font-size: 2.5rem;
+
+  position: relative;
+  bottom:115px;
+
+  display: flex;
+  justify-content: center;
+}
