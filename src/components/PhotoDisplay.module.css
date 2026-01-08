@@ -1,0 +1,92 @@
+.tabContainer {
+  z-index: 4;
+
+  display: flex;
+  width: 66vw;
+  height: 10vh;
+  justify-content: space-evenly;
+
+  position: relative;
+  top: -27vh;
+  left: 33.35%;
+
+
+  border-radius: 8px;
+}
+
+.tabContainer ul {
+  display: flex;
+  gap: 3%;
+}
+
+.backgroundTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.4rem;
+  width: 12.5vw;
+
+  color: rgb(255, 242, 204);
+
+  background-color: rgb(212, 105, 1);
+  border-radius: 8px;
+}
+
+.currentTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: -1.6vh;
+
+  font-size: 1.6rem;
+  width: 12vw;
+  height: 8vh;
+
+  color: rgb(212, 105, 1);
+
+  background-color: rgba(255, 185, 77);
+  border-radius: 8px;
+}
+
+.imageCanvas {
+  z-index: 5;
+
+  display: flex;
+  width: 70vw;
+  height: 75.6vh;
+
+  position: absolute;
+  top: 25.4%;
+  left: 21%;
+  
+  background-color: rgb(255, 185, 77);
+  border-radius: 8px 8px 0px 0px;
+}
+
+.imageContainer {
+  width: 90%;
+  height: 85%;
+
+  position: relative;
+  left: 5%;
+  top: 1.5%;
+
+  border: 2px rgb(212, 105, 1) solid;
+  border-radius: 2px;
+}
+
+.imageContainer img {
+  width: 95%;
+  height: 100%;
+  object-fit: cover;
+
+  position: relative;
+  left: 2.5%;
+}
+
+img {
+  display: flex;
+}

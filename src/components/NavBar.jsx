@@ -6,9 +6,6 @@ import HomePage from "../pages/Gallery";
 
 
 function NavBar() {
-    const [currentPage, setCurrentPage] = useState(HomePage)
-    
-
     return (
         <nav className={styles.navBar}>
             <div className={styles.navElement}>

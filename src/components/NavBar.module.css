@@ -1,7 +1,7 @@
 .navBar {
   z-index: 10;
   border-right: 7px solid rgb(197, 111, 31);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: rgb(229, 139, 0);
