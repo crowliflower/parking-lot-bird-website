@@ -5,8 +5,6 @@ import { useState } from 'react';
 
 function Gallery() {
 
-    const [ currentGalleryTab, setCurrentGalleryTab ] = useState(Gallery);
-
     return (
         <div>
             <Banner />
