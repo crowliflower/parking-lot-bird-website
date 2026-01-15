@@ -4,13 +4,15 @@ import PhotoBar from "./PhotoBar";
 import { useState } from "react";
 
 
-const [currentTab, setCurrentTab] = useState("Illustrative")
+
 
 // the variable below is just providing a url hardcoded. Later, currentPic will 
 //  actually a reference to an item from the 
 let currentPic = { key: 1, url: "src/assets/test_pic_1.jpg" }
 
 function PhotoDisplay() {
+    const [currentTab, setCurrentTab] = useState("Illustrative")
+
     const handleClick = (event) => {
         // placeholder/debug below.
         //  Feed the event.target to the setCurrentTab function. 

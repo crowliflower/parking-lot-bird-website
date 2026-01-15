@@ -1,5 +1,6 @@
 import Banner from '../components/Banner';
 
+
 function Booking() {
 
     return (
