@@ -7,7 +7,9 @@ function Gallery() {
     return (
         <div>
             <Banner />
-            <PhotoDisplay />
+            <div className='componentBox'>
+                <PhotoDisplay />
+            </div>
         </div>
     );
 }

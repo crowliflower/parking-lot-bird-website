@@ -6,6 +6,9 @@ function About() {
     return (
         <div>
             <Banner />
+            <div className='componentBox'>
+                
+            </div>
         </div>
     );
 }

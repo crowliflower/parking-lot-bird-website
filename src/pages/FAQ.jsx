@@ -6,6 +6,9 @@ function FAQ() {
     return (
         <div>
             <Banner />
+            <div className='componentBox'>
+                
+            </div>
         </div>
     );
 }

@@ -6,9 +6,9 @@
   height: 10vh;
   justify-content: space-evenly;
 
-  position: relative;
-  top: 18.2vh;
-  left: 33.35%;
+  position: absolute;
+  top: 2.2%;
+  left: 11.4%;
 
 
   border-radius: 8px;
@@ -59,8 +59,8 @@
   height: 74.6vh;
 
   position: absolute;
-  top: 25.4%;
-  left: 21%;
+  top: 10.2%;
+  left: 10.25%;
   
   background-color: rgb(255, 185, 77);
   border-radius: 8px 8px 0px 0px;

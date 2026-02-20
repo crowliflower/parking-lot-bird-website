@@ -6,6 +6,9 @@ function Merch() {
     return (
         <div>
             <Banner />
+            <div className='componentBox'>
+                
+            </div>
         </div>
     );
 }
