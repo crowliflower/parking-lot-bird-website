@@ -1,8 +1,8 @@
-import styles from './PhotoBar.module.css';
+import styles from './styles/PhotoBar.module.css';
 
 function PhotoBar() {
     <>
-      <div className={styles.main}>
+      <div className={styles.mainContainer}>
 
       </div>
     </>

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
 
-import styles from "./NavBar.module.css";
+import styles from "./styles/NavBar.module.css";
 
 
 function NavBar() {

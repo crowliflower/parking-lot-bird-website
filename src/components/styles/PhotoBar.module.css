@@ -1,0 +1,11 @@
+.mainContainer {
+    z-index: 6;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+
+    width: 30%;
+    height: 15%;
+
+    background-color: hsl(124, 19%, 46%);
+}

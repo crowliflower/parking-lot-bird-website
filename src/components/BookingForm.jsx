@@ -1,4 +1,8 @@
-import styles from "./BookingForm.module.css";
+import styles from "./styles/BookingForm.module.css";
+
+/* submition form to take down tattoo inquiries and route these to Juno's email for follow up 
+   --still in progroess-- 
+*/
 
 function BookingForm() {
     return (

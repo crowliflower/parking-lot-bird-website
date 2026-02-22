@@ -1,4 +1,4 @@
-import styles from "./PhotoDisplay.module.css";
+import styles from "./styles/PhotoDisplay.module.css";
 import PhotoBar from "./PhotoBar";
 import PicDictionary from "./PicDictionary";
 

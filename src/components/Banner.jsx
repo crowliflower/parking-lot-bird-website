@@ -1,4 +1,8 @@
-import styles from './Banner.module.css'
+import styles from './styles/Banner.module.css'
+
+/* 
+This is the main Banner at the top of the page. Put one of every page, no fuss, no muss. Does what it says on the tin etc.
+*/
 
 function Banner() {
 
