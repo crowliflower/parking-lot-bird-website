@@ -1,9 +1,7 @@
 import styles from "./styles/PhotoDisplay.module.css";
-import PhotoBar from "./PhotoBar";
-import PicDictionary from "./PicDictionary";
-
-import { useState, useEffect } from "react";
-
+import PhotoBar from "./PhotoBar.jsx";
+// import PicDictionary from "./PicDictionary";
+import { useState } from "react";
 
 function PhotoDisplay() {
 
@@ -60,9 +58,11 @@ function PhotoDisplay() {
             <div className={styles.imageCanvas}>
                 <div className={styles.imageContainer}>
                     <img src={currentPic.url} alt="test pic" />
-                    <PhotoBar />
+                    
                 </div>
+                
             </div>
+            <PhotoBar />
         </div>    
     );
 }

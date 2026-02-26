@@ -1,5 +1,6 @@
 import Banner from '../components/Banner';
 import BookingForm from '../components/BookingForm';
+import PhotoBar from '../components/PhotoBar';
 
 
 function Booking() {

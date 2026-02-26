@@ -1,11 +1,22 @@
 .mainContainer {
     z-index: 6;
+
+    display: flex;
+    width: 67vw;
+    height: 12vh;
+
     position: absolute;
-    top: 10%;
-    left: 20%;
+    top: 86%;
+    left: 12%;
 
-    width: 30%;
-    height: 15%;
+    background-color: hsla(124, 19%, 46%, 35%);
+}
 
-    background-color: hsl(124, 19%, 46%);
+.thumbnailBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.photoThumbnail {
+    /* list-style: none; */
 }
